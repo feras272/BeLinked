@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "414996056612",
+    "project_id": "belinked-76446",
+    "storage_bucket": "belinked-76446.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414996056612:android:ba19cceac63b4dd123a6b1",
+        "android_client_info": {
+          "package_name": "com.example.belinked"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414996056612-8qvt169dg8mm9r19h21btqei7ou407ik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.belinked",
+            "certificate_hash": "09cd5bbf39c6fde42fe6ba48ababe02e5472a2e8"
+          }
+        },
+        {
+          "client_id": "414996056612-o0idr34g7vuekrmq2dbk5tbn43udi8lm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSxVieKuFdfDYrtQwwyrJ1xd7z4e7SApk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414996056612-o0idr34g7vuekrmq2dbk5tbn43udi8lm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

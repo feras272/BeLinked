@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BeLinked</string>
+    <string name="loading">Loading..</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in_with">Or sign in with</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="do_not_have_an_account">Don\'t have an account?</string>
+    <string name="google_desc">Google Logo</string>
+    <string name="twitter_desc">Twitter Logo</string>
+    <string name="be_linked_desc">BeLinked Logo</string>
+</resources>
