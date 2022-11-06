@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/iv_student_item"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_volunteer_address_student_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Volunteer Opportunity: Planting Plants"
+            android:textStyle="bold"
+            android:layout_margin="8dp"
+            app:layout_constraintStart_toEndOf="@+id/iv_student_item"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_signed_student_item"/>
+
+        <TextView
+            android:id="@+id/tv_signed_student_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signed up"
+            android:layout_margin="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/tv_username_student_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username: Feras Nasser Alnowiser"
+            android:layout_margin="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_student_item"/>
+
+        <TextView
+            android:id="@+id/tv_email_student_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: ferasdev@gmail.com"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_username_student_item"
+            />
+
+        <!-- app:layout_constraintBottom_toBottomOf="parent" -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
